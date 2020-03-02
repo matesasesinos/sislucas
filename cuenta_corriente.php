@@ -89,10 +89,6 @@
                             <label for="">Vencimiento</label>
                             <input type="text" name="date" id="datepicker" value="" class="form-control">
                         </div>
-                        <div class="form-group">
-                            <label for="">Costo (en ARS)</label>
-                            <input type="text" name="precio" value="" class="form-control" />
-                        </div>
                     </div>
                     <div class="card-footer">
                         <button class="btn btn-primary" type="button">Agregar</button>

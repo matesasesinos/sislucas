@@ -1,6 +1,7 @@
 <?php require 'inc/header.php'; ?>
 <?php require 'api/clientes.php';?>
-<div class="container">
+<?php //require 'conf/init.php';?>
+<div class="container-fluid">
     <div class="row">
         <div class="col-12">
             <h1 class="h1">Todos los Clientes</h1>
@@ -8,7 +9,7 @@
         <div class="col-12">
             <div class="table-responsive">
                 <table class="table" id="tables">
-                    <thead>
+                    <thead class="thead-dark">
                         <tr>
                             <th>#</th>
                             <th>Nombre</th>
@@ -25,7 +26,7 @@
                             <td><?php echo $d->created?></td>
                             <td><?php echo $d->email?></td>
                             <td>
-                                <a href=""><i data-feather="at-sign"></i></a>
+                                <a href="cuenta_corriente.php"><i data-feather="at-sign"></i></a>
                                 <a href=""><i data-feather="dollar-sign"></i></a>
                                 <a href=""><i data-feather="edit-3"></i></a>
                                 <a href="" style="color: red"><i data-feather="power"></i></a>

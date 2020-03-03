@@ -17,6 +17,7 @@
                         <table class="table" id="table">
                             <thead>
                                 <tr>
+                                    <th>#</th>
                                     <th>Servicio</th>
                                     <th>Monto</th>
                                     <th>Pago</th>
@@ -27,28 +28,31 @@
                             </thead>
                             <tbody>
                                 <tr>
+                                    <td>1</td>
                                     <td>www.elcoso.com</td>
                                     <td>$2000</td>
                                     <td><span class="badge badge-success">Completo</span></td>
                                     <td>0</td>
                                     <td>02/03/2020</td>
-                                    <td><a href=""><i data-feather="edit-3"></i></a></td>
+                                    <td><a href="editar_cuenta.php"><i class="fas fa-highlighter"></i></a></td>
                                 </tr>
                                 <tr>
+                                    <td>2</td>
                                     <td>H: www.elcoso2.com</td>
                                     <td>$2000</td>
                                     <td><span class="badge badge-warning">Parcial</span></td>
                                     <td>$1500</td>
                                     <td>02/02/2020</td>
-                                    <td><a href=""><i data-feather="edit-3"></i></a></td>
+                                    <td><a href="editar_cuenta.php"><i class="fas fa-highlighter"></i></a></td>
                                 </tr>
                                 <tr>
+                                    <td>3</td>
                                     <td>H: www.elcoso2.com</td>
                                     <td>$2000</td>
                                     <td><span class="badge badge-danger">NO</span></td>
                                     <td>$2000</td>
                                     <td>-</td>
-                                    <td><a href=""><i data-feather="edit-3"></i></a></td>
+                                    <td><a href="editar_cuenta.php"><i class="fas fa-highlighter"></i></a></td>
                                 </tr>
                             </tbody>
                         </table>

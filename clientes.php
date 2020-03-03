@@ -26,10 +26,9 @@
                             <td><?php echo $d->created?></td>
                             <td><?php echo $d->email?></td>
                             <td>
-                                <a href="cuenta_corriente.php"><i data-feather="at-sign"></i></a>
-                                <a href=""><i data-feather="dollar-sign"></i></a>
-                                <a href=""><i data-feather="edit-3"></i></a>
-                                <a href="" style="color: red"><i data-feather="power"></i></a>
+                                <a href=""><i class="fas fa-bars"></i></a>
+                                <a href="cuenta_corriente.php"><i class="fas fa-piggy-bank"></i></a>
+                                <a href=""><i class="fas fa-highlighter"></i></a>
                             </td>
                         </tr>
                         <?php endforeach;?>

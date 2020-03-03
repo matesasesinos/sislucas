@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="js/datatables/datatables.css">
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css" />
+  <link rel="stylesheet" href="css/font/css/all.min.css" />
   <link rel="stylesheet" href="css/styles.css">
   <title>Panel</title>
   <style>

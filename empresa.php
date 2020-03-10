@@ -36,7 +36,7 @@
                         <tr>
                             <td>1</td>
                             <td>Juan Iriart</td>
-                            <td>jeiriart@gmail.com</td>
+                            <td>jeiriart@gmail.com <span class="badge badge-info">Contacto por defecto</span></td>
                             <td>11 2222 3333</td>
                             <td>Técnico</td>
                             <td>
@@ -180,6 +180,13 @@
                                 <option value="4">Administrativo</option>
                                 <option value="5">Gerencia</option>
                                 <option value="6">Otro</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <label for="">Contacto por defecto</label>
+                            <select name="default" class="form-control">
+                                <option value="0">NO</option>
+                                <option value="1">SI</option>
                             </select>
                         </div>
                     </div>

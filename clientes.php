@@ -283,7 +283,42 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-9 col-12 info-company bg-light">
+                <h3 class="page-title">
+                    <i class="far fa-building"></i> Hottechi Motor Company, Ltd
+                    <span class="small d-block text-muted text-small mt-2">
+                        Jakarta, Indonesia
+                    </span>
+                </h3>
+                <div class="tabs-container">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#info" role="tab" aria-controls="info" aria-selected="true">Contacto y Facturación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#products" role="tab" aria-controls="products" aria-selected="true">Productos y Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#bank" role="tab" aria-controls="bank" aria-selected="true">Cuenta Corriente</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#invoice" role="tab" aria-controls="invoice" aria-selected="true">Facturas</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+                    <div class="tab-pane active" id="info" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h5>Datos de contacto</h5>
+                                    <button class="btn btn-link btn-sm" data-toggle="modal" data-target="#clientBillingEditModal">Editar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -360,4 +395,60 @@
         </div>
     </div>
 </div>
+<!-- modal edit -->
+<div class="modal fade" id="clientBillingEditModal" tabindex="-1" role="dialog" aria-labelledby="clientBillingEditModalLabel" aria-hidden="true">
+                <!-- .modal-dialog -->
+                <div class="modal-dialog" role="document">
+                  <!-- .modal-content -->
+                  <div class="modal-content">
+                    <!-- .modal-header -->
+                    <div class="modal-header">
+                      <h6 id="clientBillingEditModalLabel" class="modal-title inline-editable">
+                        <span class="sr-only">Client name</span> <input type="text" class="form-control form-control-lg" value="Zathunicon, Inc." placeholder="E.g. Stilearning, Inc." required="">
+                      </h6>
+                    </div><!-- /.modal-header -->
+                    <!-- .modal-body -->
+                    <div class="modal-body">
+                      <!-- .form-row -->
+                      <div class="form-row">
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label for="ceStreet">Street</label> <input type="text" id="ceStreet" class="form-control" value="280 Suzanne Throughway">
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="ceSuite">Suite</label> <input type="text" id="ceSuite" class="form-control" value="Breannabury">
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="ceZip">Zip</label> <input type="text" id="ceZip" class="form-control" value="45801">
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="ceCountry">Country</label> <select id="ceCountry" class="custom-select d-block w-100">
+                              <option value=""> Choose... </option>
+                              <option selected> United States </option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label for="ceCity">City</label> <select id="ceCity" class="custom-select d-block w-100">
+                              <option value=""> Choose... </option>
+                              <option selected> San Francisco </option>
+                            </select>
+                          </div>
+                        </div>
+                      </div><!-- /.form-row -->
+                    </div><!-- /.modal-body -->
+                    <!-- .modal-footer -->
+                    <div class="modal-footer">
+                      <button type="submit" class="btn btn-primary">Save</button> <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                    </div><!-- /.modal-footer -->
+                  </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+              </div>
 <?php require 'inc/footer.php' ?>

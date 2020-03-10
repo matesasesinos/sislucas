@@ -255,3 +255,15 @@ a.btn.btn-info.add-company {
 .title-add{
     padding: 0rem 1rem;
 }
+
+/* datos */
+.page-title span{
+    font-size: 1rem;
+}
+.tab-content {
+    margin-top: 1rem;
+}
+.card{
+    border: none;
+    box-shadow: 0 0 0 1px rgba(20,20,31,.05), 0 1px 3px 0 rgba(20,20,31,.15);
+}

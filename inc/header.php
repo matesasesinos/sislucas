@@ -44,7 +44,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="clientes.php">
+            <a class="nav-link" href="clientes-table.php">
             <i class="fas fa-users"></i>
             <span class="title-menu">Clientes</span>
             </a>

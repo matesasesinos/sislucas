@@ -163,3 +163,6 @@ a.btn.btn-info.add-company {
 tbody th, tbody td{
     line-height: 2.5rem;
 }
+p.invoice{
+    line-height: 1;
+}

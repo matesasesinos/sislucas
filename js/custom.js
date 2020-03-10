@@ -3,16 +3,17 @@
             responsive: true,
             "language": {
                 "url": "https://cdn.datatables.net/plug-ins/1.10.20/i18n/Spanish.json"
-            },
-            "columns": [
-                null,
-                null,
-                null,
-                null,
-                { "width": "15%" }
-              ]
+            }
         });
     } );
+    $(document).ready(function(){
+        $('#tables2').DataTable({
+            responsive: true,
+            "language": {
+                "url": "https://cdn.datatables.net/plug-ins/1.10.20/i18n/Spanish.json"
+            }
+        });
+    });
     $.datepicker.regional['es'] = {
         closeText: 'Cerrar',
         prevText: '< Ant',

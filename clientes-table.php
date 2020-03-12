@@ -23,7 +23,7 @@
                         <td>
                             <a href="empresa.php" title="Datos y Contactos" class="btn btn-info" data-toggle="tooltip" data-placement="top"><i class="fas fa-eye"></i></a>
                             <a href="empresa.php?#services" title="Servicios y Facturación" class="btn btn-primary" data-toggle="tooltip" data-placement="top"><i class="fas fa-file-invoice-dollar"></i></a>
-                            <a href="#" title="Cuentas" class="btn btn-primary" data-toggle="tooltip" data-placement="top"><i class="fas fa-piggy-bank"></i></a>
+                            <a href="empresa.php?#account" title="Cuentas" class="btn btn-primary" data-toggle="tooltip" data-placement="top"><i class="fas fa-piggy-bank"></i></a>
 
                         </td>
                     </tr>
@@ -34,8 +34,8 @@
                         <td>20112223332</td>
                         <td>
                             <a href="empresa.php" title="Datos y Contactos" class="btn btn-info" data-toggle="tooltip" data-placement="top"><i class="fas fa-eye"></i></a>
-                            <a href="#" title="Servicios y Facturación" class="btn btn-primary" data-toggle="tooltip" data-placement="top"><i class="fas fa-file-invoice-dollar"></i></a>
-                            <a href="#" title="Cuentas" class="btn btn-primary" data-toggle="tooltip" data-placement="top"><i class="fas fa-piggy-bank"></i></a>
+                            <a href="empresa.php?#services" title="Servicios y Facturación" class="btn btn-primary" data-toggle="tooltip" data-placement="top"><i class="fas fa-file-invoice-dollar"></i></a>
+                            <a href="empresa.php?#account" title="Cuentas" class="btn btn-primary" data-toggle="tooltip" data-placement="top"><i class="fas fa-piggy-bank"></i></a>
 
                         </td>
                     </tr>
@@ -46,8 +46,8 @@
                         <td>20112223332</td>
                         <td>
                             <a href="empresa.php" title="Datos y Contactos" class="btn btn-info" data-toggle="tooltip" data-placement="top"><i class="fas fa-eye"></i></a>
-                            <a href="#" title="Servicios y Facturación" class="btn btn-primary" data-toggle="tooltip" data-placement="top"><i class="fas fa-file-invoice-dollar"></i></a>
-                            <a href="#" title="Cuentas" class="btn btn-primary" data-toggle="tooltip" data-placement="top"><i class="fas fa-piggy-bank"></i></a>
+                            <a href="empresa.php?#services" title="Servicios y Facturación" class="btn btn-primary" data-toggle="tooltip" data-placement="top"><i class="fas fa-file-invoice-dollar"></i></a>
+                            <a href="empresa.php?#account" title="Cuentas" class="btn btn-primary" data-toggle="tooltip" data-placement="top"><i class="fas fa-piggy-bank"></i></a>
 
                         </td>
                     </tr>
@@ -58,8 +58,8 @@
                         <td>20112223332</td>
                         <td>
                             <a href="empresa.php" title="Datos y Contactos" class="btn btn-info" data-toggle="tooltip" data-placement="top"><i class="fas fa-eye"></i></a>
-                            <a href="#" title="Servicios y Facturación" class="btn btn-primary" data-toggle="tooltip" data-placement="top"><i class="fas fa-file-invoice-dollar"></i></a>
-                            <a href="#" title="Cuentas" class="btn btn-primary" data-toggle="tooltip" data-placement="top"><i class="fas fa-piggy-bank"></i></a>
+                            <a href="empresa.php?#services" title="Servicios y Facturación" class="btn btn-primary" data-toggle="tooltip" data-placement="top"><i class="fas fa-file-invoice-dollar"></i></a>
+                            <a href="empresa.php?#account" title="Cuentas" class="btn btn-primary" data-toggle="tooltip" data-placement="top"><i class="fas fa-piggy-bank"></i></a>
 
                         </td>
                     </tr>

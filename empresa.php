@@ -170,29 +170,23 @@
                                     <p class="title-account font-weight-light"><strong>Total</strong></p>
                                     <h3 class="font-weight-bold alert-info">ARS 5000.25</h3>
                                 </div>
-                            </div>
+                            </div>  
                             <div class="col-md-2">
                                 <div class="rounded border p-3">
-                                    <p class="title-account font-weight-light"><strong>Efectivo</strong></p>
-                                    <h3 class="font-weight-bold alert-success">ARS 3000.00</h3>
+                                    <p class="title-account font-weight-light"><strong>Vencido</strong></p>
+                                    <h3 class="font-weight-bold alert-danger">ARS 1500.25</h3>
                                 </div>
-                            </div>
+                            </div>      
                             <div class="col-md-2">
                                 <div class="rounded border p-3">
-                                    <p class="title-account font-weight-light"><strong>Notas de Crédito</strong></p>
-                                    <h3 class="font-weight-bold alert-primary">ARS 2000.25</h3>
+                                    <p class="title-account font-weight-light"><strong>A vencer</strong></p>
+                                    <h3 class="font-weight-bold alert-warning">ARS 3500.00</h3>
                                 </div>
-                            </div>
-                            <div class="col-md-2">
-                                <div class="rounded border p-3">
-                                    <p class="title-account font-weight-light"><strong>Deuda</strong></p>
-                                    <h3 class="font-weight-bold alert-danger">ARS 1500.50</h3>
-                                </div>
-                            </div>
+                            </div>               
                             <div class="col-md-2">
                                 <div class="rounded border p-3">
                                     <p class="font-weight-light">
-                                        <strong>Ingresar Dinero</strong>
+                                        <strong>Agregar pago</strong>
                                     </p>
                                     <a href="#" class="btn btn-block btn-primary">Ingresar</a>
                                 </div>

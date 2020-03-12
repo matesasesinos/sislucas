@@ -9,6 +9,9 @@
             <li class="nav-item">
                 <a class="nav-link" id="services-tab" data-toggle="tab" href="#services" role="tab" aria-controls="services" aria-selected="false">Servicios</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" id="account-tab" data-toggle="tab" href="#account" role="tab" aria-controls="account" aria-selected="false">Cuenta Corriente</a>
+            </li>
         </ul>
         <div class="tab-content mt-3" id="content">
             <div class="content tab-pane fade show active" id="profile">
@@ -87,6 +90,7 @@
                 <div class="card mt-3">
                     <div class="card-body">
                         <h6 class="d-flex justify-content-between align-items-center">Servicios <span class="btn btn-link small text-muted text-small"><a href="" data-toggle="modal" data-target="#addServices"><i class="fas fa-plus"></i></a></span></h6>
+
                         <table class="table table-bordered" id="tables2">
                             <thead class="thead-dark">
                                 <tr>
@@ -156,8 +160,56 @@
                     </div>
                 </div>
             </div>
+            <div class="content tab-pane fade" id="account">
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <h6 class="d-flex justify-content-between align-items-center">Cuenta Corriente <span class="btn btn-link small text-muted text-small"><a href="" data-toggle="modal" data-target="#editAccount"><i class="fas fa-highlighter"></i></a></span></h6>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="rounded border p-3">
+                                    <p class="title-account font-weight-light"><strong>Total</strong></p>
+                                    <h3 class="font-weight-bold alert-info">ARS 5000.25</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="rounded border p-3">
+                                    <p class="title-account font-weight-light"><strong>Efectivo</strong></p>
+                                    <h3 class="font-weight-bold alert-success">ARS 3000.00</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="rounded border p-3">
+                                    <p class="title-account font-weight-light"><strong>Notas de Crédito</strong></p>
+                                    <h3 class="font-weight-bold alert-primary">ARS 2000.25</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="rounded border p-3">
+                                    <p class="title-account font-weight-light"><strong>Deuda</strong></p>
+                                    <h3 class="font-weight-bold alert-danger">ARS 1500.50</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="rounded border p-3">
+                                    <p class="font-weight-light">
+                                        <strong>Ingresar Dinero</strong>
+                                    </p>
+                                    <a href="#" class="btn btn-block btn-primary">Ingresar</a>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="rounded border p-3">
+                                    <p class="font-weight-light">
+                                        <strong>Nota de crédito</strong>
+                                    </p>
+                                    <a href="#" class="btn btn-block btn-info">Agregar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
     </div>
 </main>
 <!-- Modal new-->

@@ -226,7 +226,7 @@
                                     <td>13-03-2020</td>
                                     <td>14-03-2020</td>
                                     <td>ARS 1500</td>
-                                    <td>0</td>
+                                    <td>- ARS 500</td>
                                     <td></td>
                                 </tr>
                                 <tr>
@@ -235,8 +235,28 @@
                                     <td>Pago</td>
                                     <td>13-03-2020</td>
                                     <td>14-03-2020</td>
-                                    <td>ARS 1500</td>
-                                    <td>0</td>
+                                    <td>- ARS 1500</td>
+                                    <td>- ARS 2000</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>#</td>
+                                    <td>Pago servidor</td>
+                                    <td>Nota crédito</td>
+                                    <td>13-03-2020</td>
+                                    <td>14-03-2020</td>
+                                    <td>- ARS 2500</td>
+                                    <td>- ARS 500</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>#</td>
+                                    <td>Pago servidor</td>
+                                    <td>Factura</td>
+                                    <td>13-03-2020</td>
+                                    <td>14-03-2020</td>
+                                    <td>ARS 2000</td>
+                                    <td>ARS 2000</td>
                                     <td></td>
                                 </tr>
                             </tbody>

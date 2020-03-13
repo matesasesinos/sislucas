@@ -202,6 +202,47 @@
                         </div>
                     </div>
                 </div>
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <h6 class="d-flex justify-content-between align-items-center">Movimientos <span class="btn btn-link small text-muted text-small"><a href="" data-toggle="modal" data-target="#editAccount"><i class="fas fa-highlighter"></i></a></span></h6>
+                        <table class="table table-bordered" id="tables3">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th>#</th>
+                                    <th>Concepto</th>
+                                    <th>Tipo</th>
+                                    <th>Fecha</th>
+                                    <th>Vencimiento</th>
+                                    <th>Monto</th>
+                                    <th>Saldo</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>#</td>
+                                    <td>Cobrado a Lucas</td>
+                                    <td>Cobro</td>
+                                    <td>13-03-2020</td>
+                                    <td>14-03-2020</td>
+                                    <td>ARS 1500</td>
+                                    <td>0</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>#</td>
+                                    <td>Pago servidor</td>
+                                    <td>Pago</td>
+                                    <td>13-03-2020</td>
+                                    <td>14-03-2020</td>
+                                    <td>ARS 1500</td>
+                                    <td>0</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

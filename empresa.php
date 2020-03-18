@@ -186,9 +186,9 @@
                             <div class="col-md-2">
                                 <div class="rounded border p-3">
                                     <p class="font-weight-light">
-                                        <strong>Agregar pago</strong>
+                                        <strong>Nueva venta</strong>
                                     </p>
-                                    <a href="#" class="btn btn-block btn-primary">Ingresar</a>
+                                    <a href="venta.php?cliente=Cliente 1&tipo=Tipo 1" class="btn btn-block btn-primary">Ingresar</a>
                                 </div>
                             </div>
                             <div class="col-md-2">

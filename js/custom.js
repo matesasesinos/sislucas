@@ -60,3 +60,53 @@ window.onload = function () {
         window.location.hash = e.target.hash;
     });
 } 
+
+$(document).ready(function(){
+    var availableTags = [
+        "Cliente 1",
+        "Cliente 2",
+        "Cliente 3",
+        "Cliente 4",
+        "Cliente 5",
+      ];
+      var availableTags2 = [
+        "Tipo 1",
+        "Tipo 2",
+        "Tipo 3",
+        "Tipo 4",
+        "Tipo 5",
+      ];
+      var availableTags3 = [
+        "Producto 1",
+        "Producto 2",
+        "Producto 3",
+        "Producto 4",
+        "Producto 5",
+      ];
+      $( "#cliente-complete" ).autocomplete({
+        source: availableTags
+      });
+      $( "#tipo-venta" ).autocomplete({
+        source: availableTags2
+      });
+      $( "#product" ).autocomplete({
+        source: availableTags3
+      });
+      $( "#emision" ).datepicker();
+      $( "#vence" ).datepicker();
+      $( "#serv1" ).datepicker();
+      $( "#serv2" ).datepicker();
+
+      //tablas
+      $('#product').on('autocompleteselect', function (e, ui) {
+            var product = ui.item.value;
+            var table = ' <tr><td>'+product+'</td><td>1</td><td>100</td><td></td><td class="total-td">100</td><td></td><td><i class="fas fa-trash-alt"></i></td></tr>';
+            $('#products').append(table);
+            $(this).val('');
+            return false;
+
+        });
+      
+      
+      
+});
